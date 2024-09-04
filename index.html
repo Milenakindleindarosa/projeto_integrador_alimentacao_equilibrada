@@ -7,34 +7,90 @@
     <script defer src="java.js"></script>
 </head>
 <body>
-    <form action="" method="post" data-form>
+
         <p>
             <label for="setor">Intolerância/restrições:</label>
 
-            <select id="setor" name="setor">
+            <select id="setor" name="setor" onchange="javascript:mostraAlerta(this)">
 
-                <option value="1">Nenhuma</option>
+                <option value="1"></option>
 
-                <option value="2">Lactose</option>
+                <option value="2">Nenhuma</option>
 
-                <option value="3">Glúten</option>
+                <option value="3">Lactose</option>
 
-                <option value="4">Diabetes</option>
+                <option value="4">Glúten</option>
 
-                <option value="5">Vegetariano</option>
+                <option value="5">Diabetes</option>
 
-                <option value="6">Vegano</option>
+                <option value="6">Vegetariano</option>
+
+                <option value="7">Vegano</option>
 
             </select>
         </p>
 
-        <p>
-            <button type="submit" data-button>
-                ENVIAR
-            </button>
-        </p>
-
-    </form>
 </body>
 </html>
 
+<script type="text/javascript">
+
+
+    //Entrada
+    const peso = Number(prompt(`Informe seu peso:`));
+    const altura = Number(prompt(`Informe sua altura:`).replace(",","."));
+    const imc = peso / ( altura * altura );
+   
+    //Processamento
+
+    function mostraAlerta(elemento)
+    {
+        if ( imc <= 15.9 )
+        {
+        document.write(`Você está abaixo do peso recomendado <br>`);
+        document.write(`Seu imc = ${imc.toFixed(1)} kg/m² <br>`)
+
+            if ( elemento.value = 2 )
+            {
+                document.write(`dieta sem restrições`);
+                //dieta sem restrições
+            }
+
+            else if ( elemento.value = 3 )
+            {
+            document.write(`dieta sem lactose`);
+            //dieta sem lactose
+            }
+
+            else if ( elemento.value = 4)
+            {
+                document.write(`dieta sem glúten`);
+                //dieta sem glúten
+            }
+
+            else if ( elemento.value = 5 )
+            {
+                document.write(`dieta sem açúcar`);
+                //dieta sem açúcar
+            }
+            
+            else if ( elemento.value = 6 )
+            {
+                document.write(`dieta sem carne`);
+                //dieta sem carne
+            }
+
+            else if ( elemento.value = 7 )
+            {
+                document.write(`dieta sem nada de origem animal`);
+                //dieta sem nada de origem animal
+            }
+
+            else
+            {
+
+            }
+        }
+    }
+
+</script>
