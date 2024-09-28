@@ -160,7 +160,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 1vw 1vw 1vw 1vw;
-    background-color:rgba(3, 12, 143, 0.267);
+    background: rgb(12, 119, 87);
     border-radius: 10px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -178,7 +178,7 @@ main section h1 {
     text-align: center;
     padding: 8vw 0 0 0;
     margin: 12vw 4vw 6vw 4vw;
-    background:rgba(3, 12, 143, 0.267);
+    background: rgb(12, 119, 87);
     color: rgb(255, 255, 255);
     border-radius: 120px;
     padding: 20px;
@@ -226,11 +226,11 @@ main section {
             TOPO-DICAS
 =================================*/
 main.dicas section h1 {
-    margin: 12vw 4vw 6vw 4vw;
-    background:  rgba(3, 12, 143, 0.267);
-    color: rgb(255, 255, 255);
-    border-radius: 120px;
-    padding: 20px;
+    margin: 0 4vw 6vw 4vw;
+    background: rgb(12, 119, 87);
+    color: white;
+    border-radius: 30px;
+    padding: 30px;
 }
 
 main.dicas section p {
@@ -241,13 +241,27 @@ main.dicas section p {
 main.dicas section ol li {
 
     margin: 4vw 2vw 4vw 2vw;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 5px 3.4px 5px 3.4px;
+
 }
 
 main.dicas section ol li span {
 
-    font-weight: bold;
+    margin: 0 2vw 0 2vw;
+    font-size: 2rem;
+}
+
+main.dicas section ol li span.numero {
+    margin: 0 2vw 0 2vw;
+    font-size: 2rem;
+    color: rgb(41, 155, 41);
+
+}
+
+main.dicas section ol li p {
+    margin: 1vw;
+    border-bottom: 0.4px solid gray;
 }
 
 /*==============================
@@ -255,7 +269,7 @@ main.dicas section ol li span {
 ===============================*/
 main.desvantagens section.principais h1 {
     margin: 12vw 4vw 6vw 4vw;
-    background:  rgba(3, 12, 143, 0.267);
+    background: rgb(12, 119, 87);
     color: rgb(255, 255, 255);
     border-radius: 120px;
     padding: 20px;
