@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alimentação Saudavel</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+
 </head>
+
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="dicas">
+                    <a href="dicas.html">Dicas</a>
+                </li>
+                <li>
+                    <a href="desvantagens.html">Desvantagens</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
-        <p>
-            <label for="setor">Intolerância/restrições:</label>
-
-            <select id="setor" name="setor" onchange="javascript:mostraAlerta(this)">
-
-                <option value="1"></option>
-
-                <option value="2">Nenhuma</option>
-
-                <option value="3">Lactose</option>
-
-                <option value="4">Glúten</option>
-
-                <option value="5">Diabetes</option>
-
-                <option value="6">Vegetariano</option>
-
-                <option value="7">Vegano</option>
-
-            </select>
-        </p>
+        <section>
+            <h1>Alimentação Saudável</h1>
+            <h2>O que é uma alimentação saudável?</h2>
+            <p>
+                Alimentação saudável é aquela que fornece todos os nutrientes fundamentais para o funcionamento do nosso
+                corpo, como carboidratos, lipídios, proteínas, sais minerais e vitaminas. Muitas pessoas acreditam que
+                os carboidratos e lipídios são vilões quando o assunto é uma alimentação adequada, entretanto os
+                carboidratos são uma importante fonte de energia para o nosso corpo, e os lipídios atuam, entre outras
+                funções, na formação de certos hormônios, na proteção contra choques mecânicos e no transporte de
+                vitaminas.
+            </p>
+        </section>
+        <section class="beneficios">
+            <h2>Benefícios de uma alimentação equilibrada</h2>
+            <p>
+                De acordo com a Organização Pan-Americana da Saúde (OPAS, 2019), os benefícios de uma alimentação
+                equilibrada são: <br>
+            <ul>
+                <li>
+                    <span>1.</span> Uma alimentação saudável ajuda a proteger contra a má nutrição em todas as suas
+                    formas, bem como contra as doenças crônicas não transmissíveis (DCNT), entre elas diabetes, doenças
+                    cardiovasculares, AVC e câncer.
+                </li>
+                <li>
+                    <span>2.</span> A alimentação não ;saudável e a falta de atividade física são os principais riscos
+                    globais para a saúde.
+                </li>
+                <li>
+                    <span>3.</span> Práticas alimentares saudáveis começam cedo na vida. A amamentação, por exemplo,
+                    promove crescimento e melhora o desenvolvimento cognitivo. Além disso, pode ter benefícios a longo
+                    prazo para a saúde, reduzindo o risco de obesidade e de sobrepeso, bem como de desenvolvimento de
+                    DCNT.
+                </li>
+                <li>
+                    <span>4.</span> A ingestão calórica deve estar em equilíbrio com o gasto calórico. Para evitar um
+                    ganho de peso não saudável, as gorduras não devem exceder 30% da ingestão calórica total (1, 2, 3).
+                </li>
+                <li>
+                    <span>5.</span> As gorduras saturadas devem representar menos de 10% da ingestão calórica total. O
+                    consumo de gorduras trans, por sua vez, deve ser inferior a 1% do consumo total. Para isso ser
+                    possível, o consumo de gorduras deveria ser modificado para reduzir as gorduras saturadas e trans
+                    para gorduras insaturadas (3), com o objetivo de eliminar a gordura trans produzida industrialmente
+                    (4, 5, 6).
+                </li>
+                <li>
+                    <span>6.</span> Limitar o consumo de açúcares livres para menos de 10% da ingestão calórica total
+                    (2, 7) faz parte de uma alimentação saudável. Uma redução adicional para menos de 5% é sugerida para
+                    benefícios adicionais à saúde (7).
+                </li>
+                <li>
+                    <span>7.</span> Manter o consumo diário de sal abaixo de 5g (o equivalente a menos de 2g de sódio)
+                    ajuda a prevenir a hipertensão e reduz o risco de doença cardiovascular e AVC entre a população
+                    adulta (8).
+                </li>
+                <li>
+                    <span>8.</span> Os Estados Membros da OMS concordaram em reduzir a ingestão de sal da população
+                    mundial em 30% até 2025. Também concordaram em deter o aumento do diabetes e da obesidade entre
+                    adultos e adolescentes, bem como o sobrepeso durante a infância até 2025
+                </li>
+            </ul>
+            </p>
+        </section>
+    </main>
 
 </body>
+
 </html>
-
-<script type="text/javascript">
-
-    //Entrada
-    const peso = Number(prompt(`Informe seu peso:`));
-    const altura = Number(prompt(`Informe sua altura:`).replace(",","."));
-    const imc = peso / ( altura * altura );
-   
-    //Processamento
-    document.write (`${Element.value}`);
-    function mostraAlerta(Element)
-
-    {
-        if ( imc <= 15.9 )
-        {
-        document.write(`Você está abaixo do peso recomendado <br>`);
-        document.write(`Seu imc = ${imc.toFixed(1)} kg/m² <br>`);
-
-            if ( Element.value = 2 )
-            {
-                document.write(`dieta sem restrições`);
-                //dieta sem restrições
-            }
-
-            else if ( Element.value = 3 )
-            {
-            document.write(`dieta sem lactose`);
-            //dieta sem lactose
-            }
-
-            else if ( Element.value = 4)
-            {
-                document.write(`dieta sem glúten`);
-                //dieta sem glúten
-            }
-
-            else if ( Element.value = 5 )
-            {
-                document.write(`dieta sem açúcar`);
-                //dieta sem açúcar
-            }
-            
-            else if ( Element.value = 6 )
-            {
-                document.write(`dieta sem carne`);
-                //dieta sem carne
-            }
-
-            else if ( Element.value = 7 )
-            {
-                document.write(`dieta sem nada de origem animal`);
-                //dieta sem nada de origem animal
-            }
-        }
-    }
-
-</script>
