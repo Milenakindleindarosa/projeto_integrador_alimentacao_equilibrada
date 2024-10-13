@@ -159,7 +159,7 @@ header nav ul {
 header nav ul li.direita {
     justify-content: space-between;
 }
-header nav ul li.direita p {
+header nav ul li p {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: bold;
