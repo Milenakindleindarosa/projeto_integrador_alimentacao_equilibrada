@@ -171,20 +171,22 @@ footer {
 	text-align: left;
     background: #7e9b31;
 }
-
 footer p {
-    padding: 2vw 1vw 0vw 1.5vw;
+    padding: 2vw 2vw 0vw 2vw;
+    font-size: 13px;
 }
-
+footer p span{
+    font-size: 1rem;
+}
 footer ul {
 	display: flex;
-	justify-content: left;
-	padding: 2vw 1vw 2vw 1.5vw;
+	justify-content: center;
+	padding: 2vw 5vw 2vw 5vw;
 }
-
 footer ul li {
 	margin: 10px 10px 10px 10px;
 	font-size: 2rem;
+    padding: 2vw 1.5vw 2vw 1.5vw;
 }
 footer ul li a{
 	color: white;
@@ -283,10 +285,20 @@ main.dicas section ol li span {
     font-weight: bold;
     font-size: 1.3rem;
 }
+main.dicas section img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    /* preenche o espaço sem distorcer */
+    border-radius: 1vw;
+    display: block;
+    /* faz a imagem ser um bloco */
+    margin: 4vw auto;
+    /* centraliza horizontalmente */
+}
 /*==============================
         DESVANTAGENS
 ===============================*/
-
 main.desvantagens {
     margin: 3vw 20vw 10vw 20vw;
 }
@@ -305,7 +317,17 @@ main.desvantagens h2 {
     margin: 23px;
     padding: 7vw 1vw 3vw 1vw;
 }
-
+main.desvantagens section img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    /* preenche o espaço sem distorcer */
+    border-radius: 1vw;
+    display: block;
+    /* faz a imagem ser um bloco */
+    margin: 4vw auto;
+    /* centraliza horizontalmente */
+}
 /*================================
             TABELA
 =================================*/
@@ -341,4 +363,183 @@ main.restricoes table tr td {
 
 main.restricoes table tr td a {
     color: black;
+}
+/*================================
+            LACTOSE
+=================================*/
+
+main.lactose {
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.lactose p {
+    padding: 8px;
+}
+main.lactose section.negrito h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.lactose section.sintomas p{
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.lactose section.sintomas li {
+    padding: 1px 1px 10px 1px;
+}
+main.lactose section.dieta p {
+    font-weight: bold;
+}
+main.lactose section.dieta h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.lactose section.dieta li{
+    padding: 1px 1px 10px 1px;
+}
+main.lactose h2{
+    text-align: center;
+}
+main.lactose section.fonte{
+    padding: 50px 0 0 0;
+}
+/*================================
+            GLUTEN
+=================================*/
+
+main.gluten {
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.gluten section.Inicio p {
+    padding: 1px 1px 10px 1px;
+}
+main.gluten section.sintomas p.negrito {
+    font-weight: bold;
+}
+main.gluten section.sintomas p {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.gluten section.sintomas li {
+    padding: 1px 1px 10px 1px;
+}
+main.gluten section.dieta p {
+    font-weight: bold;
+}
+main.gluten section.dieta h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.gluten section.dieta li{
+    padding: 1px 1px 10px 1px;
+}
+main.gluten h2{
+    text-align: center;
+}
+main.gluten section.fonte{
+    padding: 50px 0 0 0;
+}
+/*================================
+            DIABETES 
+=================================*/
+
+main.diabetes {
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.diabetes p {
+    padding: 1px 1px 10px 1px;
+}
+main.diabetes p strong {
+    font-weight: bold;
+}
+main.diabetes p.negrito {
+    font-weight: bold;
+}
+main.diabetes h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.diabetes h2{
+    text-align: center;
+}
+main.diabetes section.fonte{
+    padding: 50px 0 0 0;
+}
+/*================================
+            VEGANOS
+=================================*/
+
+main.vegano {
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.vegano p {
+    padding: 1px 1px 10px 1px;
+}
+main.vegano li {
+    padding: 1px 1px 10px 1px;
+}
+main.vegetariano h2{
+    text-align: center;
+}
+main.vegano section.dieta h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.vegano section.dieta p {
+    font-weight: bold;
+}
+main.vegano section.fonte p{
+    padding: 50px 0 0 0;
+}
+/*================================
+          VEGETARIANO
+=================================*/
+
+main.vegetariano {
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.vegetariano p {
+    padding: 8px;
+}
+main.vegetariano li {
+    padding: 1px 1px 10px 1px;
+}
+main.vegetariano h2{
+    text-align: center;
+}
+main.vegetariano section.dieta h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.vegetariano section.dieta p {
+    font-weight: bold;
+}
+main.vegetariano section.negrito ul{
+    padding: 1px 1px 10px 1px;
+}
+main.vegetariano section.negrito ul strong{
+    font-weight: bold;
+}
+main.vegetariano section.fonte{
+    padding: 50px 0 0 0;
+}
+/*================================
+            NENHUMA
+=================================*/
+main.nenhuma{
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.nenhuma p {
+    padding: 8px;
+}
+main.nenhuma li {
+    padding: 1px 1px 10px 1px;
+}
+main.nenhuma section h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.nenhuma section.fonte{
+    padding: 50px 0 0 0;
+}
+main.vegetariano h2{
+    text-align: center;
 }
