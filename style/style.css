@@ -168,9 +168,6 @@ header img {
     width: 100%;
     height: 70%;
 }
-body {
-   background: linear-gradient(#2cc527, #065534);
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -286,21 +283,6 @@ main.inicio section.beneficios {
 /*================================
             DICAS
 =================================*/
-
-/*
-main.dicas section img.imagem1 {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    /* preenche o espaço sem distorcer 
-    border-radius: 10px;
-    display: block;
-    /* faz a imagem ser um bloco 
-    margin: 0 auto;
-    /* centraliza horizontalmente 
-    }*/
-    
-
 main.dicas {
     margin: 10vw 20vw 10vw 20vw;
 }
@@ -315,6 +297,8 @@ main.dicas section ol li {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 20px;
     color: rgb(54, 54, 54);
+    border-bottom: 2px solid green;
+    margin: 4vw;
 }
 
 main.dicas section ol li span {
@@ -325,44 +309,113 @@ main.dicas section img {
     width: 60%;
     height: 60%;
     object-fit: cover;
-    /* preenche o espaço sem distorcer */
     border-radius: 1vw;
     display: block;
-    /* faz a imagem ser um bloco */
     margin: 4vw auto;
-    /* centraliza horizontalmente */
+   
 }
 /*==============================
         DESVANTAGENS
 ===============================*/
-main.desvantagens {
-    margin: 3vw 20vw 10vw 20vw;
-}
-main.desvantagens section ul li{
-    padding: 1vw 4vw 1vw 4vw;
-    font-size: 20px;
-    color: rgb(54, 54, 54);
-}
-main.desvantagens section ul li span {
-    font-weight: bold;
-    font-size: 1.3rem;
-}
 main.desvantagens h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 23px;
-    padding: 7vw 1vw 3vw 1vw;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    margin: 5vw;
+
 }
-main.desvantagens section img {
+main.desvantagens section.principais {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4vw 4vw 4vw;
+}
+main.desvantagens section.principais2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4vw 4vw 4vw;
+}
+main.desvantagens section.principais h2 {
+    font-family: bold;
+}
+main.desvantagens section.principais div.primeiro {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+main.desvantagens section.principais div.segundo {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+main.desvantagens section.principais div.terceiro {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+main.desvantagens section.principais2 div.quarto {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+main.desvantagens section.principais2 div.quinto {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+main.desvantagens section.principais2 div.sexto {
+    background: linear-gradient( rgb(221, 255, 183) , rgb(252, 255, 76));
+    margin: 2vw;
+    padding: 1px;
+    border-radius: 20px;
+}
+img {
     width: 60%;
     height: 60%;
     object-fit: cover;
-    /* preenche o espaço sem distorcer */
     border-radius: 1vw;
     display: block;
-    /* faz a imagem ser um bloco */
     margin: 4vw auto;
-    /* centraliza horizontalmente */
+    border-bottom: 2px solid green;
+}
+section.lista ul li{
+    font-size: 2vw;
+    border-bottom: 2px solid;
+}
+section.lista ul li.lista1 {
+    margin: 0 0 0 3vw;
+    justify-content: center;
+}
+section.lista ul li.lista2 {
+    margin: 0 0 0 14.2vw;
+}
+section.lista ul li.lista3 {
+    margin: 0 0 0 22vw
+}
+section.lista ul li.lista4 {
+    margin: 0 0 0 32vw;
+}
+section.lista ul li.lista5 {
+    margin: 0 0 0 50.7vw;
+}
+section.lista ul li.lista6 {
+    margin: 0 0 0 50.7vw;
+}
+section.lista ul li.lista7 {
+    margin: 0 0 0 50.7vw;
+}
+section.lista ul li.lista8 {
+    margin: 0 0 0 42vw;
+} 
+section.lista ul li.lista9 {
+    margin: 0 0 0 33vw;
+}
+section.lista ul li.lista10 {
+    margin: 0 0 0 6vw;
 }
 /*================================
             TABELA
