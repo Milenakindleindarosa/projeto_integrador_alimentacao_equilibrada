@@ -143,6 +143,7 @@ header div.superior{
     display: flex;
     justify-content: space-between;
 }
+
 header nav ul{
     background: #7e9b31;
     display: flex;
@@ -167,31 +168,49 @@ header img {
     width: 100%;
     height: 70%;
 }
+body {
+   background: linear-gradient(#2cc527, #065534);
+}
 footer {
-	text-align: left;
     background: #7e9b31;
+    text-align: center;
 }
-footer p {
-    padding: 2vw 2vw 0vw 2vw;
-    font-size: 13px;
+footer div.mod{
+    justify-content: space-between;
+    text-align: center;
 }
-footer p span{
+footer div.mod div p span{
     font-size: 1rem;
 }
-footer ul {
+footer div.mod div p{
+    color: white;
+    font-size: 1rem;
+    padding: 2vw 2vw 0vw 2vw;
+}
+footer div.mod div ul.nome{
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 12vw 0 12vw;
+}
+footer div.mod div ul.nome li{
+    color: white;
+    font-size: 1rem;
+    padding: 1vw 0 0 0;
+}
+
+footer nav ul{
 	display: flex;
 	justify-content: center;
-	padding: 2vw 5vw 2vw 5vw;
+	padding: 0vw 5vw 0vw 5vw;
 }
-footer ul li {
-	margin: 10px 10px 10px 10px;
+footer nav ul li {
+	margin: 0px 10px 10px 10px;
 	font-size: 2rem;
     padding: 2vw 1.5vw 2vw 1.5vw;
 }
 footer ul li a{
-	color: white;
-}
-footer p{
 	color: white;
 }
 /*===============================================
@@ -206,7 +225,9 @@ main.inicio section h2.beneficios {
     margin: 23px;
     padding: 1vw 1vw 3vw 1vw;
 }
-
+main.inicio section h2 {
+    border-bottom: 2px solid  #7e9b31; ; 
+}
 main.inicio section p {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 20px;
@@ -229,7 +250,7 @@ section p {
 section.beneficios ul li {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 20px;
-    color: rgb(54, 54, 54);
+    color: white;
 }
 
 section.beneficios ul li span {
@@ -240,13 +261,28 @@ main.inicio section img {
     width: 60%;
     height: 60%;
     object-fit: cover;
-    /* preenche o espaço sem distorcer */
     border-radius: 1vw;
     display: block;
-    /* faz a imagem ser um bloco */
     margin: 4vw auto;
-    /* centraliza horizontalmente */
 }
+main.inicio h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+main.inicio p.acordo{
+    font-size: 1.3vw;
+    margin: 4vw;
+}
+main.inicio section.beneficios {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient( #065534 , #179213);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
 /*================================
             DICAS
 =================================*/
@@ -346,23 +382,16 @@ main.restricoes table {
     place-items: center;
 }
 
-main.restricoes table th {
-    border: 1px solid black;
-    padding: 1.5vw 10vw 1.5vw 10vw;
-    font-weight: bold;
-    font-size: 2.5vw;
-    text-align: center;
-}
-
 main.restricoes table tr td {
-    border: 1px solid black;
+    border: 5px solid #7e9b31;
     padding: 1vw 10vw 1vw 10vw;
     font-size: 1.8vw;
     text-align: center;
+    color: rgb(54, 54, 54);
 }
 
 main.restricoes table tr td a {
-    color: black;
+    color: rgb(54, 54, 54);
 }
 /*================================
             LACTOSE
@@ -542,4 +571,41 @@ main.nenhuma section.fonte{
 }
 main.vegetariano h2{
     text-align: center;
+}
+/*================================
+            SOBRE NOS 
+=================================*/
+main section h1 {
+    font-weight: bold;
+     font-size: 2rem;
+}
+main.nos section {
+    margin: 1vw 2vw 1vw 2vw ;
+}
+main.nos section ul li {
+    padding: 5px ;
+}
+main.nos section ul li span {
+    font-size: 1.5 ;
+}
+main.nos section ul li span.vermelho{
+    color: red;
+}
+main.nos section ul li span.lilais {
+    color: rgb(168, 98, 168);
+}
+main.nos section ul li span.rosa {
+    color : rgb(223, 28, 174)
+}
+main.nos section ul li span.amarelo {
+    color : orange
+}
+main.nos section ul li span.roxo {
+    color: blueviolet;
+}
+main.nos section ul li span.azul {
+    color: blue;
+}
+main.nos section ul li span.verde {
+    color: green;
 }
