@@ -213,9 +213,6 @@ footer ul li a{
 /*===============================================
                     TOPO(index.html)
 ================================================*/
-main.inicio{
-    margin: 10vw 20vw 10vw 20vw;
-}
 main.inicio section h2.beneficios {
     text-align: center;
     font-size: 2rem;
@@ -223,18 +220,20 @@ main.inicio section h2.beneficios {
     padding: 1vw 1vw 3vw 1vw;
 }
 main.inicio section h2 {
-    border-bottom: 2px solid  #7e9b31; ; 
+    margin: 3vw;
+    border-bottom: 2px solid  #7e9b31;
+    
 }
-main.inicio section p {
+main.inicio section p.saudavel2 {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 20px;
     color: rgb(54, 54, 54);
+    margin: 4vw;
 }
 
 section h2 {
     text-align: center;
     font-size: 2rem;
-    margin: 23px;
     padding: 1vw 1vw 3vw 1vw;
 }
 
@@ -242,17 +241,6 @@ section p {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 20px;
     color: rgb(54, 54, 54);
-}
-
-section.beneficios ul li {
-    padding: 1vw 4vw 1vw 4vw;
-    font-size: 20px;
-    color: white;
-}
-
-section.beneficios ul li span {
-    font-weight: bold;
-    font-size: 1.3rem;
 }
 main.inicio section img {
     width: 60%;
@@ -269,15 +257,39 @@ main.inicio h2 {
 }
 main.inicio p.acordo{
     font-size: 1.3vw;
-    margin: 4vw;
+    margin: 7vw;
+}
+main.inicio section.beneficios h2 {
+    font-size: 2.6rem;
 }
 main.inicio section.beneficios {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient( #065534 , #179213);
-    padding: 10px;
-    border-radius: 20px;
-
+    margin: 5vw;
+}
+main.inicio section.beneficios1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+}
+main.inicio section.beneficios1 h2 {
+    font-size: 2.6rem;
+}
+main.inicio section.beneficios2 h2 {
+    font-size: 2.6rem;
+}
+main.inicio section.beneficios2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+}
+main.inicio section.beneficios3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+}
+main.inicio section.beneficios3 h2 {
+    font-size: 2.6rem;
 }
 
 /*================================
@@ -606,24 +618,95 @@ main.vegetariano section.fonte{
 /*================================
             NENHUMA
 =================================*/
-main.nenhuma{
-    margin: 10vw 20vw 10vw 20vw;
+main.nenhuma h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    border-bottom: 2px solid ;
+    margin: 4vw;
+    padding: 2vw;
 }
-main.nenhuma p {
-    padding: 8px;
+main.nenhuma section.dieta1 div.cafe {
+    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106) );
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
 }
-main.nenhuma li {
-    padding: 1px 1px 10px 1px;
+main.nenhuma section.dieta1 div.cafe h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin: 3vw 0 1vw 0;
 }
-main.nenhuma section h3 {
-    font-weight: bold;
-    padding: 35px 2px 20px 2px;
+main.nenhuma section.dieta1 div.cafe p {
+    display: flex;
+    justify-content: center;
 }
-main.nenhuma section.fonte{
-    padding: 50px 0 0 0;
+main.nenhuma section.dieta1 div.lanche {
+    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
 }
-main.vegetariano h2{
-    text-align: center;
+main.nenhuma section.dieta1 div.lanche h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin: 3vw 0 1vw 0;
+}
+main.nenhuma section.dieta1 div.lanche p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.almoco {
+    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.almoco h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin: 3vw 0 1vw 0;
+}
+
+main.nenhuma section.dieta1 div.almoco p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.tarde {
+    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.tarde h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin: 3vw 0 1vw 0;
+}
+main.nenhuma section.dieta1 div.tarde p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.janta {
+    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.janta h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin: 3vw 0 1vw 0;
+}
+main.nenhuma section.dieta div.janta p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.fonte {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    font-size: 2vw;
 }
 /*================================
             SOBRE NOS 
