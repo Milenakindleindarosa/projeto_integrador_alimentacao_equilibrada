@@ -189,7 +189,7 @@ footer div.mod div ul.nome{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin: 0 12vw 0 12vw;
+    margin: 0 10vw 0 10vw;
 }
 footer div.mod div ul.nome li{
     color: white;
@@ -200,12 +200,12 @@ footer div.mod div ul.nome li{
 footer nav ul{
 	display: flex;
 	justify-content: center;
-	padding: 0vw 5vw 0vw 5vw;
+	padding: 0vw 15vw 0vw 15vw;
 }
 footer nav ul li {
 	margin: 0px 10px 10px 10px;
 	font-size: 2rem;
-    padding: 2vw 1.5vw 2vw 1.5vw;
+    padding: 2vw 2vw 2vw 2vw;
 }
 footer ul li a{
 	color: white;
@@ -627,7 +627,7 @@ main.nenhuma h2 {
     padding: 2vw;
 }
 main.nenhuma section.dieta1 div.cafe {
-    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106) );
+    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
@@ -642,7 +642,7 @@ main.nenhuma section.dieta1 div.cafe p {
     justify-content: center;
 }
 main.nenhuma section.dieta1 div.lanche {
-    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
@@ -657,7 +657,7 @@ main.nenhuma section.dieta1 div.lanche p {
     justify-content: center;
 }
 main.nenhuma section.dieta1 div.almoco {
-    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
@@ -673,7 +673,7 @@ main.nenhuma section.dieta1 div.almoco p {
     justify-content: center;
 }
 main.nenhuma section.dieta1 div.tarde {
-    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
@@ -688,7 +688,7 @@ main.nenhuma section.dieta1 div.tarde p {
     justify-content: center;
 }
 main.nenhuma section.dieta1 div.janta {
-    background: linear-gradient(rgb(19, 160, 6) , rgb(106, 253, 106));
+    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
@@ -712,11 +712,12 @@ main.nenhuma section.fonte {
             SOBRE NOS 
 =================================*/
 main section h1 {
+    text-align: center;
     font-weight: bold;
      font-size: 2rem;
 }
 main.nos section {
-    margin: 1vw 2vw 1vw 2vw ;
+    margin: 1vw 2vw 4vw 2vw ;
 }
 main.nos section ul li {
     padding: 5px ;
@@ -727,7 +728,7 @@ main.nos section ul li span {
 main.nos section ul li span.vermelho{
     color: red;
 }
-main.nos section ul li span.lilais {
+main.nos section ul li span.lilas {
     color: rgb(168, 98, 168);
 }
 main.nos section ul li span.rosa {
