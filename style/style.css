@@ -159,14 +159,14 @@ header div.direita{
     background: #7e9b31;
 }
 header nav ul li a {
-    padding: 3vw;
+    padding: 2vw;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.5rem;
 }
 header img {
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 footer {
     background: #7e9b31;
@@ -222,11 +222,11 @@ main.inicio section h2.beneficios {
 main.inicio section h2 {
     margin: 3vw;
     border-bottom: 2px solid  #7e9b31;
-    
+    font-size: 3rem;
 }
 main.inicio section p.saudavel2 {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(54, 54, 54);
     margin: 4vw;
 }
@@ -239,7 +239,7 @@ section h2 {
 
 section p {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(54, 54, 54);
 }
 main.inicio section img {
@@ -307,7 +307,7 @@ main.dicas section h2 {
 }
 main.dicas section ol li {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(54, 54, 54);
     border-bottom: 2px solid green;
     margin: 4vw;
@@ -315,7 +315,7 @@ main.dicas section ol li {
 
 main.dicas section ol li span {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 main.dicas section img {
     width: 60%;
@@ -385,14 +385,13 @@ main.desvantagens section.principais2 div.sexto {
     padding: 1px;
     border-radius: 20px;
 }
-img {
+div.mulher img {
     width: 60%;
     height: 60%;
     object-fit: cover;
-    border-radius: 1vw;
     display: block;
-    margin: 4vw auto;
     border-bottom: 2px solid green;
+    margin: 2vw 5vw 2vw 20vw;
 }
 section ul.doencas li{
     margin: 0 4vw 4vw 4vw;
@@ -786,18 +785,20 @@ main.nenhuma section.fonte {
             SOBRE NOS 
 =================================*/
 main section h1 {
+    margin: 2vw 5vw 2vw 5vw;
     text-align: center;
     font-weight: bold;
-     font-size: 2rem;
+     font-size: 3rem;
 }
 main.nos section {
-    margin: 1vw 2vw 4vw 2vw ;
+    margin: 2vw 2vw 4vw 2vw ;
 }
 main.nos section ul li {
-    padding: 5px ;
+    padding: 2vw 5vw 2vw 5vw ;
+    font-size: 1vw;
 }
 main.nos section ul li span {
-    font-size: 1.5 ;
+    font-size: 1.5vw ;
 }
 main.nos section ul li span.vermelho{
     color: red;
