@@ -213,20 +213,20 @@ footer ul li a{
 /*===============================================
                     TOPO(index.html)
 ================================================*/
-main.inicio section h2.beneficios {
+main.inicio section.beneficios div h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 23px;
     padding: 1vw 1vw 3vw 1vw;
 }
 main.inicio section h2 {
     margin: 3vw;
     border-bottom: 2px solid  #7e9b31;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 main.inicio section p.saudavel2 {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 25px;
+    font-size: 1.7rem;
     color: rgb(54, 54, 54);
     margin: 4vw;
 }
@@ -239,7 +239,7 @@ section h2 {
 
 section p {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 25px;
+    font-size: 1.7rem;
     color: rgb(54, 54, 54);
 }
 main.inicio section img {
@@ -253,10 +253,10 @@ main.inicio section img {
 main.inicio h2 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 main.inicio p.acordo{
-    font-size: 1.3vw;
+    font-size: 1.7rem;
     margin: 7vw;
 }
 main.inicio section.beneficios h2 {
@@ -327,24 +327,28 @@ main.dicas section img {
    
 }
 /*==============================
-        DESVANTAGENS
+        ERROS
 ===============================*/
+main.desvantagens{
+    margin: 5vw 10vw 5vw 10vw;
+}
 main.desvantagens h2 {
     display: flex;
     justify-content: center;
-    font-size: 3vw;
+    font-size: 2rem;
     margin: 5vw;
-
 }
 main.desvantagens section.principais {
     display: flex;
     justify-content: space-between;
     margin: 0 4vw 4vw 4vw;
+    text-align: center;
 }
 main.desvantagens section.principais2 {
     display: flex;
     justify-content: space-between;
     margin: 0 4vw 4vw 4vw;
+    text-align: center;
 }
 main.desvantagens section.principais h2 {
     font-family: bold;
@@ -354,36 +358,42 @@ main.desvantagens section.principais div.primeiro {
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 main.desvantagens section.principais div.segundo {
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 main.desvantagens section.principais div.terceiro {
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 main.desvantagens section.principais2 div.quarto {
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 main.desvantagens section.principais2 div.quinto {
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 main.desvantagens section.principais2 div.sexto {
     background: linear-gradient( rgb(221, 255, 183) , rgb(245, 247, 139));
     margin: 2vw;
     padding: 1px;
     border-radius: 20px;
+    text-align: center;
 }
 div.mulher img {
     width: 60%;
@@ -391,11 +401,11 @@ div.mulher img {
     object-fit: cover;
     display: block;
     border-bottom: 2px solid green;
-    margin: 2vw 5vw 2vw 20vw;
+    margin: 2vw 4vw 2vw 15vw;
 }
 section ul.doencas li{
     margin: 0 4vw 4vw 4vw;
-    font-size: 2vw;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
@@ -420,7 +430,7 @@ main.restricoes table {
 main.restricoes table tr td {
     border: 5px solid #7e9b31;
     padding: 1vw 10vw 1vw 10vw;
-    font-size: 1.8vw;
+    font-size: 1.8rem;
     text-align: center;
     color: rgb(54, 54, 54);
 }
@@ -429,9 +439,115 @@ main.restricoes table tr td a {
     color: rgb(54, 54, 54);
 }
 /*================================
+            NENHUMA
+=================================*/
+main.nenhuma{
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.nenhuma h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-bottom: 2px solid ;
+    margin: 4vw;
+    padding: 2vw;
+}
+main.nenhuma section.dieta1 div.cafe {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.cafe h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.cafe p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.lanche {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.lanche h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.lanche p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.almoco {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.almoco h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+
+main.nenhuma section.dieta1 div.almoco p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.tarde {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.tarde h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.tarde p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.janta {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.janta h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta div.janta p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.fonte {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    font-size: 2rem;
+}
+main.nenhuma section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
+}
+/*================================
             LACTOSE
 =================================*/
-
 main.lactose {
     margin: 10vw 20vw 10vw 20vw;
 }
@@ -439,11 +555,11 @@ main.lactose h2{
     font-size: 2rem;
 }
 main.lactose h3{
-    font-size: 1.7vw;
+    font-size: 1.7rem;
 }
 main.lactose p {
     padding: 10px;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
 }
 main.lactose section.negrito h3 {
     font-weight: bold;
@@ -455,7 +571,7 @@ main.lactose section.sintomas p{
 }
 main.lactose section.sintomas li {
     margin: 2vw 4vw 4vw 2vw;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
@@ -468,20 +584,20 @@ main.lactose section.dieta h3 {
 }
 main.lactose section.dieta li{
     padding: 2px 2px 10px 2px;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 main.lactose h2{
     text-align: center;
 }
 main.lactose section.dieta div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.lactose section.dieta div.cafe h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.cafe p {
@@ -489,14 +605,14 @@ main.lactose section.dieta div.cafe p {
     justify-content: center;
 }
 main.lactose section.dieta div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.lactose section.dieta div.lanche h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.lanche p {
@@ -511,7 +627,7 @@ main.lactose section.dieta div.almoco {
 main.lactose section.dieta div.almoco h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.almoco p {
@@ -519,14 +635,14 @@ main.lactose section.dieta div.almoco p {
     justify-content: center;
 }
 main.lactose section.dieta div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.lactose section.dieta div.tarde h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.tarde p {
@@ -534,14 +650,14 @@ main.lactose section.dieta div.tarde p {
     justify-content: center;
 }
 main.lactose section.dieta div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.lactose section.dieta div.janta h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.janta p {
@@ -549,14 +665,14 @@ main.lactose section.dieta div.janta p {
     justify-content: center;
 }
 main.lactose section.dieta div.ceia{
-    background: linear-gradient(rgb(245, 240, 247) , rgb(255, 255, 255));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.lactose section.dieta div.ceia h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.lactose section.dieta div.ceia p {
@@ -567,7 +683,13 @@ main.lactose section.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
-    font-size: 2vw;
+    font-size: 2rem;
+}
+main.lactose section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
             GLUTEN
@@ -588,7 +710,7 @@ main.gluten section.sintomas p {
 }
 main.gluten section.sintomas li {
     margin: 2vw 4vw 4vw 2vw;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
@@ -608,14 +730,14 @@ main.gluten h2{
     padding: 2vw;
 }
 main.gluten section.dieta div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.gluten section.dieta div.cafe h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.cafe p {
@@ -623,14 +745,14 @@ main.gluten section.dieta div.cafe p {
     justify-content: center;
 }
 main.gluten section.dieta div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.gluten section.dieta div.lanche h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.lanche p {
@@ -645,7 +767,7 @@ main.gluten section.dieta div.almoco {
 main.gluten section.dieta div.almoco h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.almoco p {
@@ -653,14 +775,14 @@ main.gluten section.dieta div.almoco p {
     justify-content: center;
 }
 main.gluten section.dieta div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.gluten section.dieta div.tarde h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.tarde p {
@@ -668,14 +790,14 @@ main.gluten section.dieta div.tarde p {
     justify-content: center;
 }
 main.gluten section.dieta div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.gluten section.dieta div.janta h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.janta p {
@@ -683,14 +805,14 @@ main.gluten section.dieta div.janta p {
     justify-content: center;
 }
 main.gluten section.dieta div.ceia{
-    background: linear-gradient(rgb(245, 240, 247) , rgb(255, 255, 255));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.gluten section.dieta div.ceia h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.gluten section.dieta div.ceia p {
@@ -701,7 +823,13 @@ main.gluten section.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
-    font-size: 2vw;
+    font-size: 2rem;
+}
+main.gluten section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
             DIABETES 
@@ -721,22 +849,22 @@ main.diabetes p.negrito {
 }
 main.diabetes section ul.lista1 li{
     margin: 2vw 4vw 4vw 2vw;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
 main.diabetes section ul.lista2 li{
     margin: 2vw 4vw 4vw 2vw;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
 main.diabetes section.dieta ul li{
     padding: 2px 2px 10px 2px;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 main.diabetes h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     padding: 35px 2px 20px 2px;
 }
@@ -745,14 +873,14 @@ main.diabetes h2{
     text-align: center;
 }
 main.diabetes section.dieta div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.diabetes section.dieta div.cafe h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.cafe p {
@@ -760,14 +888,14 @@ main.diabetes section.dieta div.cafe p {
     justify-content: center;
 }
 main.diabetes section.dieta div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.diabetes section.dieta div.lanche h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.lanche p {
@@ -782,7 +910,7 @@ main.diabetes section.dieta div.almoco {
 main.diabetes section.dieta div.almoco h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.almoco p {
@@ -790,14 +918,14 @@ main.diabetes section.dieta div.almoco p {
     justify-content: center;
 }
 main.diabetes section.dieta div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.diabetes section.dieta div.tarde h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.tarde p {
@@ -805,14 +933,14 @@ main.diabetes section.dieta div.tarde p {
     justify-content: center;
 }
 main.diabetes section.dieta div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.diabetes section.dieta div.janta h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.janta p {
@@ -820,14 +948,14 @@ main.diabetes section.dieta div.janta p {
     justify-content: center;
 }
 main.diabetes section.dieta div.ceia{
-    background: linear-gradient(rgb(245, 240, 247) , rgb(255, 255, 255));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.diabetes section.dieta div.ceia h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.diabetes section.dieta div.ceia p {
@@ -838,133 +966,17 @@ main.diabetes section.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
-    font-size: 2vw;
-}
-/*================================
-            VEGANOS
-=================================*/
-
-main.vegano {
-    margin: 10vw 20vw 10vw 20vw;
-}
-main.vegano p {
-    padding: 1px 1px 10px 1px;
-}
-main.vegano li {
-    padding: 2px 2px 10px 2px;
-    font-size: 17px;
-}
-main.vegano h2{
     font-size: 2rem;
-    text-align: center;
 }
-main.vegano section.dieta h3 {
-    font-weight: bold;
-    padding: 35px 2px 20px 2px;
-}
-main.vegano section.dieta p {
-    font-weight: bold;
-}
-main.vegano section.dieta div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.cafe h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.cafe p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.dieta div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.lanche h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.lanche p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.dieta div.almoco {
-    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.almoco h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.almoco p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.dieta div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.tarde h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.tarde p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.dieta div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.janta h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.janta p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.dieta div.ceia{
-    background: linear-gradient(rgb(245, 240, 247) , rgb(255, 255, 255));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.vegano section.dieta div.ceia h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-}
-main.vegano section.dieta div.ceia p {
-    display: flex;
-    justify-content: center;
-}
-main.vegano section.fonte{
-    display: flex;
-    justify-content: center;
-    margin: 3vw;
-    font-size: 2vw;
+main.diabetes section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
           VEGETARIANO
 =================================*/
-
 main.vegetariano {
     margin: 10vw 20vw 10vw 20vw;
 }
@@ -973,7 +985,7 @@ main.vegetariano p {
 }
 main.vegetariano li {
     padding: 2px 2px 10px 2px;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 main.vegetariano h2{
     text-align: center;
@@ -993,14 +1005,14 @@ main.vegetariano section.negrito ul strong{
     font-size: 1.3rem;
 }
 main.vegetariano section.dieta div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.vegetariano section.dieta div.cafe h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.cafe p {
@@ -1008,14 +1020,14 @@ main.vegetariano section.dieta div.cafe p {
     justify-content: center;
 }
 main.vegetariano section.dieta div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.vegetariano section.dieta div.lanche h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.lanche p {
@@ -1030,7 +1042,7 @@ main.vegetariano section.dieta div.almoco {
 main.vegetariano section.dieta div.almoco h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.almoco p {
@@ -1038,14 +1050,14 @@ main.vegetariano section.dieta div.almoco p {
     justify-content: center;
 }
 main.vegetariano section.dieta div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.vegetariano section.dieta div.tarde h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.tarde p {
@@ -1053,14 +1065,14 @@ main.vegetariano section.dieta div.tarde p {
     justify-content: center;
 }
 main.vegetariano section.dieta div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.vegetariano section.dieta div.janta h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.janta p {
@@ -1068,14 +1080,14 @@ main.vegetariano section.dieta div.janta p {
     justify-content: center;
 }
 main.vegetariano section.dieta div.ceia{
-    background: linear-gradient(rgb(245, 240, 247) , rgb(255, 255, 255));
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
 main.vegetariano section.dieta div.ceia h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
 }
 main.vegetariano section.dieta div.ceia p {
@@ -1086,105 +1098,139 @@ main.vegetariano section.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
-    font-size: 2vw;
+    font-size: 2rem;
+}
+main.vegetariano section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
-            NENHUMA
+            VEGANOS
 =================================*/
-main.nenhuma h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    border-bottom: 2px solid ;
-    margin: 4vw;
-    padding: 2vw;
+main.vegano {
+    margin: 10vw 20vw 10vw 20vw;
 }
-main.nenhuma section.dieta1 div.cafe {
-    background: linear-gradient(#d36848 , rgb(209, 169, 82) );
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
+main.vegano p {
+    padding: 1px 1px 10px 1px;
 }
-main.nenhuma section.dieta1 div.cafe h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
+main.vegano li {
+    padding: 2px 2px 10px 2px;
+    font-size: 1.2rem;
+}
+main.vegano h2{
+    font-size: 2rem;
+    text-align: center;
+}
+main.vegano section.dieta h3 {
+    font-weight: bold;
+    padding: 35px 2px 20px 2px;
+}
+main.vegano section.dieta p {
     font-weight: bold;
 }
-main.nenhuma section.dieta1 div.cafe p {
-    display: flex;
-    justify-content: center;
-}
-main.nenhuma section.dieta1 div.lanche {
-    background: linear-gradient(rgb(209, 169, 82) , rgb(218, 236, 114));
-    margin: 0 10vw 1vw 10vw;
-    border-radius: 20px;
-}
-main.nenhuma section.dieta1 div.lanche h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 3vw 0 1vw 0;
-    font-weight: bold;
-}
-main.nenhuma section.dieta1 div.lanche p {
-    display: flex;
-    justify-content: center;
-}
-main.nenhuma section.dieta1 div.almoco {
+main.vegano section.dieta div.cafe {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
-main.nenhuma section.dieta1 div.almoco h3 {
+main.vegano section.dieta div.cafe h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
-    font-weight: bold;
 }
-
-main.nenhuma section.dieta1 div.almoco p {
+main.vegano section.dieta div.cafe p {
     display: flex;
     justify-content: center;
 }
-main.nenhuma section.dieta1 div.tarde {
-    background: linear-gradient(rgb(166, 241, 123) , rgb(173, 226, 247));
+main.vegano section.dieta div.lanche {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
-main.nenhuma section.dieta1 div.tarde h3 {
+main.vegano section.dieta div.lanche h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
-    font-weight: bold;
 }
-main.nenhuma section.dieta1 div.tarde p {
+main.vegano section.dieta div.lanche p {
     display: flex;
     justify-content: center;
 }
-main.nenhuma section.dieta1 div.janta {
-    background: linear-gradient(rgb(173, 226, 247) , rgb(245, 240, 247));
+main.vegano section.dieta div.almoco {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
 }
-main.nenhuma section.dieta1 div.janta h3 {
+main.vegano section.dieta div.almoco h3 {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     margin: 3vw 0 1vw 0;
-    font-weight: bold;
 }
-main.nenhuma section.dieta div.janta p {
+main.vegano section.dieta div.almoco p {
     display: flex;
     justify-content: center;
 }
-main.nenhuma section.fonte {
+main.vegano section.dieta div.tarde {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.vegano section.dieta div.tarde h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+}
+main.vegano section.dieta div.tarde p {
+    display: flex;
+    justify-content: center;
+}
+main.vegano section.dieta div.janta {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.vegano section.dieta div.janta h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+}
+main.vegano section.dieta div.janta p {
+    display: flex;
+    justify-content: center;
+}
+main.vegano section.dieta div.ceia{
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.vegano section.dieta div.ceia h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+}
+main.vegano section.dieta div.ceia p {
+    display: flex;
+    justify-content: center;
+}
+main.vegano section.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
-    font-size: 2vw;
+    font-size: 2rem;
+}
+main.vegano section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
             SOBRE NOS 
@@ -1193,17 +1239,17 @@ main section h1 {
     margin: 2vw 5vw 2vw 5vw;
     text-align: center;
     font-weight: bold;
-     font-size: 3rem;
+    font-size: 3rem;
 }
 main.nos section {
     margin: 2vw 2vw 4vw 2vw ;
 }
 main.nos section ul li {
     padding: 2vw 5vw 2vw 5vw ;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 main.nos section ul li span {
-    font-size: 1.5vw ;
+    font-size: 1.5rem;
 }
 main.nos section ul li span.vermelho{
     color: red;
