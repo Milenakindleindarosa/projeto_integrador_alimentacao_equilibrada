@@ -291,6 +291,12 @@ main.inicio section.beneficios3 {
 main.inicio section.beneficios3 h2 {
     font-size: 2.6rem;
 }
+main.inicio section.botao p a {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
+}
 
 /*================================
             DICAS
@@ -325,6 +331,12 @@ main.dicas section img {
     display: block;
     margin: 4vw auto;
    
+}
+main.dicas section.botao p a {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*==============================
         ERROS
@@ -408,6 +420,12 @@ section ul.doencas li{
     font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
+}
+main.desvantagens section.botao p a {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
 /*================================
             TABELA
@@ -1257,9 +1275,6 @@ main.nos section ul li span.vermelho{
 main.nos section ul li span.lilas {
     color: rgb(168, 98, 168);
 }
-main.nos section ul li span.rosa {
-    color : rgb(223, 28, 174)
-}
 main.nos section ul li span.amarelo {
     color : orange
 }
@@ -1271,4 +1286,10 @@ main.nos section ul li span.azul {
 }
 main.nos section ul li span.verde {
     color: green;
+}
+main.nos section.botao p a {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
 }
