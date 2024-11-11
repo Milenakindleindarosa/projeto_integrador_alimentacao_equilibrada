@@ -1,0 +1,40 @@
+main section h1 {
+    margin: 2vw 5vw 2vw 5vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+main.nos section {
+    margin: 2vw 2vw 4vw 2vw ;
+}
+main.nos section ul li {
+    padding: 2vw 5vw 2vw 5vw ;
+    font-size: 1rem;
+}
+main.nos section ul li span {
+    font-size: 1.5rem;
+}
+main.nos section ul li span.vermelho{
+    color: red;
+}
+main.nos section ul li span.lilas {
+    color: rgb(168, 98, 168);
+}
+main.nos section ul li span.amarelo {
+    color : orange
+}
+main.nos section ul li span.roxo {
+    color: blueviolet;
+}
+main.nos section ul li span.azul {
+    color: blue;
+}
+main.nos section ul li span.verde {
+    color: green;
+}
+main.nos section.botao p a {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
+}

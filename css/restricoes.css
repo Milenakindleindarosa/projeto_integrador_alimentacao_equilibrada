@@ -1,0 +1,26 @@
+main.restricoes{
+    margin: 3vw 20vw 10vw 20vw;
+}
+main.restricoes section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+    padding: 7vw 1vw 3vw 1vw;
+}
+main.restricoes table {
+    border-collapse: collapse;
+    display: grid;
+    place-items: center;
+}
+
+main.restricoes table tr td {
+    border: 5px solid #7e9b31;
+    padding: 1vw 10vw 1vw 10vw;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+main.restricoes table tr td a {
+    color: rgb(54, 54, 54);
+}

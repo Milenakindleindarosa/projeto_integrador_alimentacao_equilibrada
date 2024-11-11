@@ -1,0 +1,104 @@
+main.nenhuma{
+    margin: 10vw 20vw 10vw 20vw;
+}
+main.nenhuma h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-bottom: 2px solid ;
+    margin: 4vw;
+    padding: 2vw;
+}
+main.nenhuma section.dieta1 div.cafe {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.cafe h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.cafe p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.lanche {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.lanche h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.lanche p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.almoco {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.almoco h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+
+main.nenhuma section.dieta1 div.almoco p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.tarde {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.tarde h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta1 div.tarde p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.dieta1 div.janta {
+    background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
+    margin: 0 10vw 1vw 10vw;
+    border-radius: 20px;
+}
+main.nenhuma section.dieta1 div.janta h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3vw 0 1vw 0;
+    font-weight: bold;
+}
+main.nenhuma section.dieta div.janta p {
+    display: flex;
+    justify-content: center;
+}
+main.nenhuma section.fonte {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    font-size: 2rem;
+}
+main.nenhuma section.botao p a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 3px;
+    border-radius: 5px;
+}
