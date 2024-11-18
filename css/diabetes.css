@@ -1,6 +1,4 @@
-/*==============================================
-                    GERAL
-===============================================*/
+/*=============== GERAL =================*/
 header div.superior{
     background: #7e9b31;
     display: flex;
@@ -74,9 +72,7 @@ footer ul li a{
 	color: white;
 }
 
-
-
-
+/*================ DIABETES ====================*/
 main.diabetes {
     margin: 10vw 20vw 10vw 20vw;
 }

@@ -1,13 +1,10 @@
 
-/*==============================================
-                    GERAL
-===============================================*/
+/*============= GERAL ================*/
 header div.superior{
     background: #7e9b31;
     display: flex;
     justify-content: space-between;
 }
-
 header nav ul{
     background: #7e9b31;
     display: flex;
@@ -74,37 +71,22 @@ footer nav ul li {
 footer ul li a{
 	color: white;
 }
-/*===============================================
-                    TOPO(index.html)
-================================================*/
+/*============= INDEX(INÍCIO) ================*/
+main.inicio section h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 4vw 0 4vw 0;
+}
+main.inicio section p.saudavel{
+    font-size: 1.7rem;
+    color: rgb(54, 54, 54);
+    margin: 0vw 8vw 4vw 8vw;
+}
 main.inicio section.beneficios div h2 {
     text-align: center;
     font-size: 3rem;
     margin: 23px;
     padding: 1vw 1vw 3vw 1vw;
-}
-main.inicio section h2 {
-    margin: 3vw;
-    border-bottom: 2px solid  #7e9b31;
-    font-size: 2rem;
-}
-main.inicio section p.saudavel2 {
-    padding: 1vw 4vw 1vw 4vw;
-    font-size: 1.7rem;
-    color: rgb(54, 54, 54);
-    margin: 4vw;
-}
-
-section h2 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 1vw 1vw 3vw 1vw;
-}
-
-section p {
-    padding: 1vw 4vw 1vw 4vw;
-    font-size: 1.7rem;
-    color: rgb(54, 54, 54);
 }
 main.inicio section img {
     width: 60%;
@@ -114,15 +96,29 @@ main.inicio section img {
     display: block;
     margin: 4vw auto;
 }
-main.inicio h2 {
-    display: flex;
-    justify-content: center;
+main.inicio section.beneficios h2 {
+    text-align: center;
     font-size: 2rem;
+    padding: 1vw 1vw 2vw 1vw;
 }
-main.inicio p.acordo{
+main.inicio section.beneficios p.acordo{
     font-size: 1.7rem;
-    margin: 7vw;
+    margin: 0vw 4vw 4vw 4vw;
 }
+main.inicio section.beneficios div.dupla1 ol{
+    display: flex;
+}
+main.inicio section.beneficios div.dupla1 ol li p span{
+    font-size: 1.8rem;
+    justify-content: center;
+}
+main.inicio section.beneficios div.dupla1 ol li p{
+    padding: 1vw 4vw 1vw 4vw;
+    font-size: 1.7rem;
+    color: rgb(54, 54, 54);
+    border-bottom: 2px solid  #7e9b31;
+}
+/*
 main.inicio section.beneficios h2 {
     font-size: 2.6rem;
 }
@@ -158,6 +154,7 @@ main.inicio section.beneficios3 h2 {
 main.inicio section.botao p a {
     color: #f7f7f7;
     background: #7e9b31;
-    padding: 3px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
+    font-weight: bold;
 }

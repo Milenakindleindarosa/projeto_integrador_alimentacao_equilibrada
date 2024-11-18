@@ -1,6 +1,4 @@
-/*==============================================
-                    GERAL
-===============================================*/
+/*============= GERAL ================*/
 header div.superior{
     background: #7e9b31;
     display: flex;
@@ -59,7 +57,6 @@ footer div.mod div ul.nome li{
     font-size: 1rem;
     padding: 1vw 0 0 0;
 }
-
 footer nav ul{
 	display: flex;
 	justify-content: center;
@@ -73,10 +70,7 @@ footer nav ul li {
 footer ul li a{
 	color: white;
 }
-
-
-
-
+/*================= DICAS ======================*/
 main.dicas {
     margin: 10vw 20vw 10vw 20vw;
 }
@@ -111,6 +105,7 @@ main.dicas section img {
 main.dicas section.botao p a {
     color: #f7f7f7;
     background: #7e9b31;
-    padding: 3px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
