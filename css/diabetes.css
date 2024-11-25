@@ -206,9 +206,10 @@ main.diabetes section.fonte{
     margin: 3vw;
     font-size: 2rem;
 }
-main.diabetes section.botao p a{
+main.diabetes section.botao a{
     color: #f7f7f7;
     background: #7e9b31;
-    padding: 3px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
+    font-weight: bold;
 }

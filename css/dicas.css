@@ -102,7 +102,7 @@ main.dicas section img {
     margin: 4vw auto;
    
 }
-main.dicas section.botao p a {
+main.dicas section.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;

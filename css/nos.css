@@ -93,6 +93,9 @@ main.nos section ul li span.vermelho{
 main.nos section ul li span.lilas {
     color: rgb(168, 98, 168);
 }
+main.nos section ul li span.rosa {
+    color : rgb(223, 28, 174)
+}
 main.nos section ul li span.amarelo {
     color : orange
 }
@@ -105,10 +108,9 @@ main.nos section ul li span.azul {
 main.nos section ul li span.verde {
     color: green;
 }
-main.nos section.botao p a {
+main.nos section.botao a {
     color: #f7f7f7;
     background: #7e9b31;
-    margin: 5vw 5vw 5vw 5vw;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     font-weight: bold;

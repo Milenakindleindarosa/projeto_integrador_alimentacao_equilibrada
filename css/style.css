@@ -72,6 +72,9 @@ footer ul li a{
 	color: white;
 }
 /*============= INDEX(INÍCIO) ================*/
+main.inicio {
+    margin: 5vw 10vw 5vw 10vw;
+}
 main.inicio section h2{
     text-align: center;
     font-size: 2.5rem;
@@ -105,53 +108,21 @@ main.inicio section.beneficios p.acordo{
     font-size: 1.7rem;
     margin: 0vw 4vw 4vw 4vw;
 }
-main.inicio section.beneficios div.dupla1 ol{
-    display: flex;
+main.inicio section.beneficios ol{
+    margin: 2vw;
 }
-main.inicio section.beneficios div.dupla1 ol li p span{
-    font-size: 1.8rem;
-    justify-content: center;
-}
-main.inicio section.beneficios div.dupla1 ol li p{
-    padding: 1vw 4vw 1vw 4vw;
-    font-size: 1.7rem;
+main.inicio section.beneficios ol li {
+    padding: 2vw 4vw 2vw 4vw;
+    font-size: 1.5rem;
     color: rgb(54, 54, 54);
-    border-bottom: 2px solid  #7e9b31;
+    border-bottom: 2px solid green;
+    margin: 4vw;
 }
-/*
-main.inicio section.beneficios h2 {
-    font-size: 2.6rem;
+main.inicio section.beneficios ol li p span {
+    font-weight: 500;
+    font-size: 2rem;
 }
-main.inicio section.beneficios {
-    display: flex;
-    justify-content: space-between;
-    margin: 5vw;
-}
-main.inicio section.beneficios1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 5vw;
-}
-main.inicio section.beneficios1 h2 {
-    font-size: 2.6rem;
-}
-main.inicio section.beneficios2 h2 {
-    font-size: 2.6rem;
-}
-main.inicio section.beneficios2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 5vw;
-}
-main.inicio section.beneficios3 {
-    display: flex;
-    justify-content: space-between;
-    margin: 5vw;
-}
-main.inicio section.beneficios3 h2 {
-    font-size: 2.6rem;
-}
-main.inicio section.botao p a {
+main.inicio section.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;
