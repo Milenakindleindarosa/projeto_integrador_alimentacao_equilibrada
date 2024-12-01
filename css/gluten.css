@@ -76,8 +76,10 @@ main.gluten {
 }
 main.gluten h2{
     text-align: center;
-    font-size: 2rem ;
+    font-size: 2rem;
     padding: 2vw;
+    color: #7e9b31;
+    font-weight: bold;
 }
 main.gluten section.Inicio p {
     padding: 1px 1px 10px 1px;
@@ -88,7 +90,7 @@ main.gluten section.sintomas h2 {
 }
 main.gluten section.sintomas p {
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: bold;
     padding: 35px 2px 20px 2px;
 }
 main.gluten section.sintomas li {
@@ -101,107 +103,109 @@ main.gluten section.dieta div.dieta{
     padding: 4vw 0 4vw 0;
 } 
 main.gluten section.dieta h2 {
-    font-weight: 600;
+    font-weight: bold;
 }
-main.gluten section.dieta p {
+main.gluten section.dieta {
     font-size: 1.7rem;
-    font-weight: 500;
+}
+main.gluten section.dieta h3 {
+    font-weight: bold;
 }
 main.gluten section.dieta div.cafe {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.cafe h3 {
+main.gluten section.dieta div.cafe ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.cafe p {
+main.gluten section.dieta div.cafe ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1,7rem;
 }
 main.gluten section.dieta div.lanche {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.lanche h3 {
+main.gluten section.dieta div.lanche ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.lanche p {
+main.gluten section.dieta div.lanche ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1.7rem;
 }
 main.gluten section.dieta div.almoco {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.almoco h3 {
+main.gluten section.dieta div.almoco ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.almoco p {
+main.gluten section.dieta div.almoco ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1.7rem;
 }
 main.gluten section.dieta div.tarde {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.tarde h3 {
+main.gluten section.dieta div.tarde ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.tarde p {
+main.gluten section.dieta div.tarde ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1.7rem;
 }
 main.gluten section.dieta div.janta {
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.janta h3 {
+main.gluten section.dieta div.janta ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.janta p {
+main.gluten section.dieta div.janta ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1.7rem;
 }
 main.gluten section.dieta div.ceia{
     background: linear-gradient(rgb(218, 236, 114) , rgb(190, 241, 123));
     margin: 0 10vw 1vw 10vw;
     border-radius: 20px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 2vw 2vw 2vw 2vw ;
 }
-main.gluten section.dieta div.ceia h3 {
+main.gluten section.dieta div.ceia ul h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
-main.gluten section.dieta div.ceia p {
+main.gluten section.dieta div.ceia ul li p {
     display: flex;
-    justify-content: center;
+    font-size: 1.7rem;
 }
 main.gluten section.fonte{
     display: flex;

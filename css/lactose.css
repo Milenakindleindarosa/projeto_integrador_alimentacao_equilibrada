@@ -85,7 +85,7 @@ main.lactose h3{
 }
 main.lactose p {
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 main.lactose section.negrito h3 {
     font-weight: 700;
@@ -97,7 +97,7 @@ main.lactose section.sintomas p{
 }
 main.lactose section.sintomas li {
     margin: 2vw 4vw 4vw 2vw;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
