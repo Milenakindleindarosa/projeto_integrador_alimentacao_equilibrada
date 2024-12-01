@@ -202,3 +202,10 @@ main.vegano section.botao a{
     border-radius: 5px;
     font-weight: bold;
 }
+div img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    display: block;
+    padding: 1vw 10vw 1vw 10vw;
+}
