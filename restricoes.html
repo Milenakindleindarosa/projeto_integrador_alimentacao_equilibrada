@@ -41,42 +41,48 @@
                 Aqui temos algumas restrições e suas respectivas dietas para ajudar a seguir um ritmo:
             </h2>
         </section>
-        <div>
-            <img src="src/geral.jpg" alt="geral">
-        </div>
-        <table>
-            <tr>
-                <td>
-                    <a href="nenhuma.html">Nenhuma</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="lactose.html">Lactose</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="gluten.html">Glúten</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="diabetes.html">Diabetes</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="vegetariano.html">Vegetariano</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="vegano.html">Vegano</a>
-                </td>
-            </tr>
+        <section>
+            <form action="#">
+                <fieldset>
+                    <p>
+                        <label for="restricao">
+                            Restrições
+                        </label>
+    
+                        <select name="restricoes" id="restricoes">
+                            <option value="1">
+                                Nenhuma
+                            </option>
 
-        </table>
+                            <option value="2">
+                                Lactose
+                            </option>
+
+                            <option value="3">
+                                Glúten
+                            </option>
+
+                            <option value="4">
+                                Diabetes
+                            </option>
+
+                            <option value="5">
+                                Vegetariano
+                            </option>
+
+                            <option value="6">
+                                Vegano
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <input type="button" value="Enviar" id="btn-enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="mod">
@@ -133,6 +139,59 @@
             </ul>
         </nav>
     </footer>
+    <script>
+
+        let enviar = document.getElementById("btn-enviar");
+
+        enviar.addEventListener("click", function (e)
+    {
+        let restri = parseInt(document.getElementById("restricoes").value);
+        console.log(restri);
+
+        switch (restri) 
+        {
+            case 1:
+
+            window.location.href = "nenhuma.html";
+                
+                break;
+
+            case 2:
+
+            window.location.href = "lactose.html";
+                
+                break;
+
+            case 3:
+
+            window.location.href = "gluten.html";
+                
+                break;
+
+            case 4:
+
+            window.location.href = "diabetes.html";
+                
+                break;
+
+            case 5:
+
+            window.location.href = "vegetariano.html";
+                
+                break;
+
+            case 6:
+
+            window.location.href = "vegano.html";
+                
+                break;
+        
+            default:
+                break;
+        }
+    })
+
+    </script>
 </body>
 
 </html>
