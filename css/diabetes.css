@@ -1,4 +1,4 @@
-/*=============== GERAL =================*/
+/*=============== GERAL ============================================*/
 header div.superior{
     background: #7e9b31;
     display: flex;
@@ -72,7 +72,7 @@ footer ul li a{
 	color: white;
 }
 
-/*================ DIABETES ====================*/
+/*================== DIABETES ====================*/
 main.diabetes {
     margin: 10vw 20vw 10vw 20vw;
 }
@@ -213,13 +213,13 @@ main.diabetes section.dieta div.ceia p {
     display: flex;
     justify-content: center;
 }
-main.diabetes section.fonte{
+main.diabetes div.fonte{
     display: flex;
     justify-content: center;
     margin: 3vw;
     font-size: 2rem;
 }
-main.diabetes section.botao a{
+main.diabetes div.botao a{
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;
@@ -233,3 +233,4 @@ div img{
     display: block;
     padding: 1vw 10vw 1vw 10vw;
 }
+
