@@ -1,4 +1,9 @@
 /*============= GERAL ================*/
+header div.banner{
+    padding: 30vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/ALIMENTAÇÃO-SAUDÁVEL-dicas.png) no-repeat;
+    background-size: cover;
+}
 header div.superior{
     background: #7e9b31;
     display: flex;
@@ -33,26 +38,26 @@ footer {
     background: #7e9b31;
     text-align: center;
 }
-footer div.mod{
+footer div.rodape{
     justify-content: space-between;
     text-align: center;
 }
-footer div.mod div p span{
+footer div.rodape div p span{
     font-size: 1rem;
 }
-footer div.mod div p{
+footer div.rodape div p{
     color: white;
     font-size: 1rem;
     padding: 2vw 2vw 0vw 2vw;
 }
-footer div.mod div ul.nome{
+footer div.rodape div ul.nome{
     font-size: 1rem;
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin: 0 10vw 0 10vw;
 }
-footer div.mod div ul.nome li{
+footer div.rodape div ul.nome li{
     color: white;
     font-size: 1rem;
     padding: 1vw 0 0 0;
