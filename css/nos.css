@@ -30,10 +30,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-header img {
-    width: 100%;
-    height: 80%;
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -76,18 +72,12 @@ footer ul li a{
 	color: white;
 }
 /*============= SOBRE NÓS ================*/
-main section h1 {
-    margin: 2vw 5vw 2vw 5vw;
-    text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
-}
 main.nos section {
     margin: 2vw 2vw 4vw 2vw ;
 }
 main.nos section ul li {
     padding: 2vw 5vw 2vw 5vw ;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 main.nos section ul li span {
     font-size: 1.5rem;
@@ -113,7 +103,7 @@ main.nos section ul li span.azul {
 main.nos section ul li span.verde {
     color: green;
 }
-main.nos section.botao a {
+main.nos div.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;

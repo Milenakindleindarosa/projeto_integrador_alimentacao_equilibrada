@@ -30,10 +30,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-header img {
-    width: 100%;
-    height: 80%;
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -82,17 +78,17 @@ main.inicio {
 }
 main.inicio section h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 4vw 0 4vw 0;
 }
 main.inicio section p.saudavel{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: rgb(54, 54, 54);
     margin: 0vw 8vw 4vw 8vw;
 }
 main.inicio section.beneficios div h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 23px;
     padding: 1vw 1vw 3vw 1vw;
 }
@@ -110,7 +106,7 @@ main.inicio section.beneficios h2 {
     padding: 1vw 1vw 2vw 1vw;
 }
 main.inicio section.beneficios p.acordo{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     margin: 0vw 4vw 4vw 4vw;
 }
 main.inicio section.beneficios ol{
@@ -118,16 +114,16 @@ main.inicio section.beneficios ol{
 }
 main.inicio section.beneficios ol li {
     padding: 2vw 4vw 2vw 4vw;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(54, 54, 54);
     border-bottom: 2px solid green;
     margin: 4vw;
 }
 main.inicio section.beneficios ol li p span {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-main.inicio section.botao a {
+main.inicio div.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;

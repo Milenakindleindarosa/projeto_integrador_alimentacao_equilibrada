@@ -37,35 +37,62 @@
     </header>
     <main class="nos">
         <section>
-            <h1>Sobre Nós </h1>
             <ul>
                 <li>
-                    <span class="vermelho">Agatha Helena Schmidt de Oliveira :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                    <span class="vermelho">+</span> Agatha Helena Schmidt de Oliveira :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="lilas">Ana Laura Simonato :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                    <span class="lilas">+</span> Ana Laura Simonato :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="rosa">Anderson Ramos Silva Anjo :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                    <span class="rosa">+</span> Anderson Ramos Silva Anjo :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="amarelo">Andressa Steffen :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                    <span class="amarelo">+</span> Andressa Steffen :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="roxo">Gabriela Heloisa Ramos (Yuri) :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                    <span class="roxo">+</span> Gabriela Heloisa Ramos (Yuri) :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="azul">Kauan dos Santos Luciano :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                    <span class="azul">+</span> Kauan dos Santos Luciano :
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html .
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="verde">Milena Kindlein da Rosa :</span> <br>
-                    Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                    <span class="verde">+</span> Milena Kindlein da Rosa 
+                    <ul>
+                        <li>
+                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </section>
@@ -132,3 +159,27 @@
         </nav>
     </footer>
 </body>
+
+<style>
+    ul li ul {
+        display: none;
+    }
+</style>
+<script>
+    let elements = document.querySelectorAll('span');
+    elements.forEach((item) => {
+        item.addEventListener('click', function(e){
+            console.log("foi");
+            let estado = this.parentNode.querySelector('ul').style.display;
+            if ( estado == 'block'){
+                this.parentNode.querySelector('ul').style.display='none';
+                this.innerHTML = '+'
+            }
+            else{
+                this.parentNode.querySelector('ul').style.display='block';
+                this.innerHTML = '-'
+            }
+
+        })
+    });
+</script>

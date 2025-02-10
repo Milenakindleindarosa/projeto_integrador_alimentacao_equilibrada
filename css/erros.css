@@ -30,10 +30,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-header img {
-    width: 100%;
-    height: 80%;
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -88,22 +84,22 @@ main.erros section.principais h2 {
 }
 main.erros section ol li {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 25px;
+    font-size: 1.3rem;
     color: rgb(54, 54, 54);
     border-bottom: 2px solid green;
     margin: 4vw;
 }
 main.erros section ol li span {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-div.img img {
+div.mulher img {
     width: 60%;
     height: 60%;
     object-fit: cover;
+    border-radius: 1vw;
     display: block;
-    border-bottom: 2px solid green;
-    margin: 2vw 4vw 2vw 15vw;
+    margin: 4vw auto;
 }
 main.erros section.doencas h2{
     text-align: center;
@@ -113,11 +109,11 @@ main.erros section.doencas h2{
 }
 main.erros section.doencas ul.doencas li{
     margin: 0 4vw 4vw 4vw;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border-left: 40px solid rgb(197, 235, 155);
     border-radius: 20px;
 }
-main.erros section.botao a {
+main.erros div.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;

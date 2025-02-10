@@ -30,10 +30,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-header img {
-    width: 100%;
-    height: 80%;
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -88,7 +84,7 @@ main.dicas section h2 {
 }
 main.dicas section ol li {
     padding: 1vw 4vw 1vw 4vw;
-    font-size: 25px;
+    font-size: 1.3rem;
     color: rgb(54, 54, 54);
     border-bottom: 2px solid green;
     margin: 4vw;
@@ -96,7 +92,7 @@ main.dicas section ol li {
 
 main.dicas section ol li span {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 main.dicas section img {
     width: 60%;
@@ -105,9 +101,8 @@ main.dicas section img {
     border-radius: 1vw;
     display: block;
     margin: 4vw auto;
-   
 }
-main.dicas section.botao a {
+main.dicas div.botao a {
     color: #f7f7f7;
     background: #7e9b31;
     padding: 10px 10px 10px 10px;

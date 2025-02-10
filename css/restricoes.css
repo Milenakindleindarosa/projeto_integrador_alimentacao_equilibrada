@@ -30,10 +30,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-header img {
-    width: 100%;
-    height: 80%;
-}
 footer {
     background: #7e9b31;
     text-align: center;
@@ -102,10 +98,21 @@ main.restricoes table tr td {
 main.restricoes table tr td a {
     color: rgb(54, 54, 54);
 }
-div img{
+main.restricoes div.botao a{
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main.restricoes div.opcoes{
+    margin: 10vw 10vw 10vw 10vw;
+}
+div.opcoes div img{
     width: 60%;
     height: 60%;
     object-fit: cover;
+    border-radius: 1vw;
     display: block;
-    padding: 1vw 10vw 1vw 10vw;
+    margin: 4vw auto;
 }

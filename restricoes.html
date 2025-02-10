@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-        <nav>
             <div class="superior">
                 <div  class="direita">
                         <p>Nutri-Vida</p>
@@ -30,9 +29,9 @@
                         <a href="erros.html">Erros</a>
                     </li>
                 </ul>
+            </nav>
             </div>
             <div class="banner"></div>
-        </nav>
     </header>
     <main class="restricoes">
         <section>
@@ -41,13 +40,14 @@
             </h2>
         </section>
         <section>
-		<div>
-               	 	<img src="src/geral.jpg" alt="geral">
-            	</div>
+            <div class="opcoes">
+		    <div>
+               	<img src="src/geral.jpg" alt="geral">
+            </div>
             <form action="#">
                 <fieldset>
                     <p>
-                        <label for="restricao">
+                        <label id="restricao">
                             Restrições
                         </label>
 
@@ -75,6 +75,7 @@
                             <option value="6">
                                 Vegano
                             </option>
+                    </div>
                         </select>
                     </p>
 
@@ -85,6 +86,9 @@
                 </fieldset>
             </form>
         </section>
+        <div class="botao">
+            <a href="index.html">Início</a>
+        </div>
     </main>
     <footer>
         <div class="rodape">
