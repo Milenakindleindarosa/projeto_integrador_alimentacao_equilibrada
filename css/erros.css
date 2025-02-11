@@ -120,3 +120,52 @@ main.erros div.botao a {
     border-radius: 5px;
     font-weight: bold;
 }
+@media (max-width: 578px){
+    header div.direita{
+        font-size: 3vw;
+        padding: 3vw 3vw 3vw 3vw ;
+        justify-content: space-between;
+        justify-content: right;
+    }
+    header nav ul li a {
+        font-size: 3vw;
+    }
+    main.erros{
+        margin: 1vw 2vw 1vw 2vw;
+    }
+    main.erros section.principais h2 {
+        font-size: 1rem;
+    }
+    main.erros section ol li {
+        font-size: 3vw;
+    }
+    main.erros section ol li span {
+        font-size: 3.5vw;
+    }
+    main.erros section.doencas h2{
+        font-size: 1rem;
+    }
+    main.erros section.doencas ul.doencas li{
+        font-size: 3vw;
+        border-left: 4px solid rgb(197, 235, 155);
+        border-radius: 2px;
+    }
+    footer div.rodape div p{
+        font-size: 3vw;
+    }
+    footer div.rodape div ul.nome{
+        justify-content: center;
+    }
+    footer div.rodape div ul.nome li{
+        font-size: 2vw;
+        padding: 2px 2px 0 2px;
+    }
+    footer nav ul{
+        display: flex;
+        justify-content: center;
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    footer nav ul li {
+        font-size: 1rem;
+    }
+}

@@ -52,9 +52,13 @@ footer div.rodape div ul.nome{
 footer div.rodape div ul.nome li{
     color: white;
     font-size: 1rem;
-    padding: 1vw 0 0 0;
+    padding: 1vw 1vw 1vw 1vw;
 }
-
+footer nav ul{
+	display: flex;
+	justify-content: center;
+	padding: 0vw 15vw 0vw 15vw;
+}
 footer div.rodape ul{
 	display: flex;
 	justify-content: center;
@@ -64,6 +68,7 @@ footer nav ul li {
 	margin: 0px 10px 10px 10px;
 	font-size: 2rem;
     padding: 2vw 2vw 2vw 2vw;
+    display: flex;
 }
 footer ul li a{
 	color: white;
@@ -293,10 +298,18 @@ div img{
         font-size: 3vw;
     }
     footer div.rodape div ul.nome{
-        margin: 1vw 1vw 1vw 1vw;
-        display: flex;
+        justify-content: center;
     }
     footer div.rodape div ul.nome li{
-        font-size: 3vw;
+        font-size: 2vw;
+        padding: 2px 2px 0 2px;
+    }
+    footer nav ul{
+        display: flex;
+        justify-content: center;
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    footer nav ul li {
+        font-size: 1rem;
     }
 }

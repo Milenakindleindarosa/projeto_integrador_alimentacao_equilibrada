@@ -110,3 +110,42 @@ main.nos div.botao a {
     border-radius: 5px;
     font-weight: bold;
 }
+@media (max-width: 578px){
+    header div.direita{
+        font-size: 3vw;
+        padding: 3vw 3vw 3vw 3vw ;
+        justify-content: space-between;
+        justify-content: right;
+    }
+    header nav ul li a {
+        font-size: 3vw;
+    }
+    main.nos section {
+        margin: 2vw 2vw 4vw 2vw ;
+    }
+    main.nos section ul li {
+        padding: 2vw 5vw 2vw 5vw ;
+        font-size: 4vw;
+    }
+    main.nos section ul li span {
+        font-size: 5vw;
+    }
+    footer div.rodape div p{
+        font-size: 3vw;
+    }
+    footer div.rodape div ul.nome{
+        justify-content: center;
+    }
+    footer div.rodape div ul.nome li{
+        font-size: 2vw;
+        padding: 2px 2px 0 2px;
+    }
+    footer nav ul{
+        display: flex;
+        justify-content: center;
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    footer nav ul li {
+        font-size: 1rem;
+    }
+}
