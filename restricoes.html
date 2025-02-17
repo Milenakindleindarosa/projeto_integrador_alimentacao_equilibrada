@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="css/restricoes.css" type="text/css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-            <div class="superior">
-                <div  class="direita">
-                        <p>Nutri-Vida</p>
-                </div>
+        <div class="superior">
+            <div class="direita">
+                <p>Nutri-Vida</p>
+            </div>
             <nav>
                 <ul>
                     <li>
@@ -30,61 +32,60 @@
                     </li>
                 </ul>
             </nav>
-            </div>
-            <div class="banner"></div>
+        </div>
+        <div class="banner"></div>
     </header>
     <main class="restricoes">
         <section>
             <h2>
                 Aqui temos algumas restrições e suas respectivas dietas para ajudar a seguir um ritmo:
             </h2>
-        </section>
-        <section>
             <div class="opcoes">
-		    <div>
-               	<img src="src/geral.jpg" alt="geral">
+                <div>
+                    <img src="src/geral.jpg" alt="geral">
+                </div>
+                <form action="#">
+                    <fieldset>
+                        <p>
+                            <label id="restricao">
+                                Restrições
+                            </label>
+
+                            <select name="restricoes" id="restricoes">
+                                <option value="1">
+                                    Nenhuma
+                                </option>
+
+                                <option value="2">
+                                    Lactose
+                                </option>
+
+                                <option value="3">
+                                    Glúten
+                                </option>
+
+                                <option value="4">
+                                    Diabetes
+                                </option>
+
+                                <option value="5">
+                                    Vegetariano
+                                </option>
+
+                                <option value="6">
+                                    Vegano
+                                </option>
+
+                            </select>
+                        </p>
+
+                        <p>
+                            <input type="button" value="Enviar" id="btn-enviar">
+                            <input type="reset" value="Limpar">
+                        </p>
+                    </fieldset>
+                </form>
             </div>
-            <form action="#">
-                <fieldset>
-                    <p>
-                        <label id="restricao">
-                            Restrições
-                        </label>
-
-                        <select name="restricoes" id="restricoes">
-                            <option value="1">
-                                Nenhuma
-                            </option>
-
-                            <option value="2">
-                                Lactose
-                            </option>
-
-                            <option value="3">
-                                Glúten
-                            </option>
-
-                            <option value="4">
-                                Diabetes
-                            </option>
-
-                            <option value="5">
-                                Vegetariano
-                            </option>
-
-                            <option value="6">
-                                Vegano
-                            </option>
-                    </div>
-                        </select>
-                    </p>
-
-                    <p>
-                        <input type="button" value="Enviar" id="btn-enviar">
-                        <input type="reset" value="Limpar">
-                    </p>
-                </fieldset>
-            </form>
         </section>
         <div class="botao">
             <a href="index.html">Início</a>
@@ -152,53 +153,51 @@
 
         let enviar = document.getElementById("btn-enviar");
 
-        enviar.addEventListener("click", function (e)
-    {
-        let restri = parseInt(document.getElementById("restricoes").value);
-        console.log(restri);
+        enviar.addEventListener("click", function (e) {
+            let restri = parseInt(document.getElementById("restricoes").value);
+            console.log(restri);
 
-        switch (restri) 
-        {
-            case 1:
+            switch (restri) {
+                case 1:
 
-            window.location.href = "nenhuma.html";
+                    window.location.href = "nenhuma.html";
 
-                break;
+                    break;
 
-            case 2:
+                case 2:
 
-            window.location.href = "lactose.html";
+                    window.location.href = "lactose.html";
 
-                break;
+                    break;
 
-            case 3:
+                case 3:
 
-            window.location.href = "gluten.html";
+                    window.location.href = "gluten.html";
 
-                break;
+                    break;
 
-            case 4:
+                case 4:
 
-            window.location.href = "diabetes.html";
+                    window.location.href = "diabetes.html";
 
-                break;
+                    break;
 
-            case 5:
+                case 5:
 
-            window.location.href = "vegetariano.html";
+                    window.location.href = "vegetariano.html";
 
-                break;
+                    break;
 
-            case 6:
+                case 6:
 
-            window.location.href = "vegano.html";
+                    window.location.href = "vegano.html";
 
-                break;
+                    break;
 
-            default:
-                break;
-        }
-    })
+                default:
+                    break;
+            }
+        })
 
     </script>
 </body>
