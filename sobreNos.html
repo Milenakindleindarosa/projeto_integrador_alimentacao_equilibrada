@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nos.css" type="text/css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript" defer></script> 
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <nav>
             <div class="superior">
                 <div class="direita">
-                    <p>Nutri-Vida</p>
+                    <p id="logo">Nutri-Vida</p>
                 </div>
                 <ul>
                     <li>
@@ -40,59 +41,32 @@
             <ul>
                 <li>
                     <span class="vermelho">+</span> Agatha Helena Schmidt de Oliveira:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.</p>
+
                 </li>
                 <li>
                     <span class="lilas">+</span> Ana Laura Simonato:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.</p>
                 </li>
                 <li>
                     <span class="rosa">+</span> Anderson Ramos Silva Anjo:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.</p>
                 </li>
                 <li>
                     <span class="amarelo">+</span> Andressa Steffen:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.</p>
                 </li>
                 <li>
                     <span class="roxo">+</span> Gabriela Heloisa Ramos (Yuri):
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.</p>
                 </li>
                 <li>
                     <span class="azul">+</span> Kauan dos Santos Luciano:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e html.</p>
                 </li>
                 <li>
                     <span class="verde">+</span> Milena Kindlein da Rosa:
-                    <ul>
-                        <li>
-                            Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.
-                        </li>
-                    </ul>
+                    <p>Estudante do IFC turma 1INFO3 cuidou das partes de pesquisas e script.</p>
                 </li>
             </ul>
         </section>
@@ -158,28 +132,28 @@
             </ul>
         </nav>
     </footer>
+
+    <style>
+        ul li ul {
+            display: none;
+        }
+    </style>
+    <script>
+        let elements = document.querySelectorAll('span');
+    
+        elements.forEach((item) => {
+            item.addEventListener('click', function(e){
+                let estado = this.parentNode.querySelector('p').style.display;
+                if ( estado == 'block'){
+                    this.parentNode.querySelector('p').style.display='none';
+                    this.innerHTML = '+'
+                }
+                else{
+                    this.parentNode.querySelector('p').style.display='block';
+                    this.innerHTML = '-'
+                }
+    
+            })
+        });
+    </script>
 </body>
-
-<style>
-    ul li ul {
-        display: none;
-    }
-</style>
-<script>
-    let elements = document.querySelectorAll('span');
-    elements.forEach((item) => {
-        item.addEventListener('click', function(e){
-            console.log("foi");
-            let estado = this.parentNode.querySelector('ul').style.display;
-            if ( estado == 'block'){
-                this.parentNode.querySelector('ul').style.display='none';
-                this.innerHTML = '+'
-            }
-            else{
-                this.parentNode.querySelector('ul').style.display='block';
-                this.innerHTML = '-'
-            }
-
-        })
-    });
-</script>
