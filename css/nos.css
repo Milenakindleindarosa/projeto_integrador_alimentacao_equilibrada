@@ -17,7 +17,7 @@ header nav ul{
     justify-content: space-between;
     justify-content: right;
 }
-header div.direita{
+header div.direita a{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: bold;
@@ -116,7 +116,7 @@ main.nos div.botao a {
     font-weight: bold;
 }
 @media (max-width: 578px){
-    header div.direita{
+    header div.direita a{
         font-size: 3vw;
         padding: 3vw 3vw 3vw 3vw ;
         justify-content: space-between;
@@ -133,24 +133,24 @@ main.nos div.botao a {
         font-size: 4vw;
     }
     main.nos section ul li span {
-        font-size: 5vw;
+        font-size: 7vw;
     }
     footer div.rodape div p{
-        font-size: 3vw;
-    }
-    footer div.rodape div ul.nome{
-        justify-content: center;
+        font-size: 4vw;
+        padding: 5px 0 5px 0;
     }
     footer div.rodape div ul.nome li{
-        font-size: 2vw;
-        padding: 2px 2px 0 2px;
+        font-size: 4vw;
+        padding: 5px 0 5px 0;
+    }
+    footer div.rodape div ul.nome{
+        display: block;
     }
     footer nav ul{
-        display: flex;
         justify-content: center;
         padding: 0vw 1vw 0vw 1vw;
     }
     footer nav ul li {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }

@@ -8,12 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nos.css" type="text/css">
     <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
-    <script src="index.js" defer></script> 
-       <style>
-        ul li p {
-            display: none;
-        }
-    </style>
+    <script src="index.js" type="text/javascript" defer></script> 
 </head>
 
 <body>
@@ -21,7 +16,7 @@
         <nav>
             <div class="superior">
                 <div class="direita">
-                    <p id="logo">Nutri-Vida</p>
+                    <a href="index.html">Nutri-Vida</a>
                 </div>
                 <ul>
                     <li>
@@ -43,7 +38,6 @@
     </header>
     <main class="nos">
         <section>
-            <h2>Desenvolvedores:</h2>
             <ul>
                 <li>
                     <span class="vermelho">+</span> Agatha Helena Schmidt de Oliveira:
@@ -138,7 +132,12 @@
             </ul>
         </nav>
     </footer>
-    
+
+    <style>
+        ul li ul {
+            display: none;
+        }
+    </style>
     <script>
         let elements = document.querySelectorAll('span');
     

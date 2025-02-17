@@ -17,7 +17,7 @@ header nav ul{
     justify-content: space-between;
     justify-content: right;
 }
-header div.direita{
+header div.direita a{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: bold;
@@ -107,6 +107,20 @@ main.restricoes div.botao a{
 }
 main.restricoes div.opcoes{
     margin: 10vw 10vw 10vw 10vw;
+    border: 5px solid #7e9b31;
+    padding: 1vw 10vw 1vw 10vw;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+p input {
+    color: #f7f7f7;
+    background: #7e9b31;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1vw 1vw 1vw 1vw;
+    border: none;
 }
 div.opcoes div img{
     width: 60%;
@@ -117,7 +131,7 @@ div.opcoes div img{
     margin: 4vw auto;
 }
 @media (max-width: 578px){
-    header div.direita{
+    header div.direita a{ 
         font-size: 3vw;
         padding: 3vw 3vw 3vw 3vw ;
         justify-content: space-between;
@@ -133,21 +147,20 @@ div.opcoes div img{
         font-size: 1rem;
     }
     footer div.rodape div p{
-        font-size: 3vw;
-    }
-    footer div.rodape div ul.nome{
-        justify-content: center;
+        font-size: 4vw;
     }
     footer div.rodape div ul.nome li{
-        font-size: 2vw;
-        padding: 2px 2px 0 2px;
+        font-size: 4vw;
+        padding: 5px 0 5px 0;
+    }
+    footer div.rodape div ul.nome{
+        display: block;
     }
     footer nav ul{
-        display: flex;
         justify-content: center;
         padding: 0vw 1vw 0vw 1vw;
     }
     footer nav ul li {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
