@@ -75,6 +75,11 @@ footer ul li a{
 main.nos section {
     margin: 2vw 2vw 4vw 2vw ;
 }
+main.nos section h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	 padding: 2vw 5vw 2vw 5vw ;
+}
 main.nos section ul li {
     padding: 2vw 5vw 2vw 5vw ;
     font-size: 1.3rem;
