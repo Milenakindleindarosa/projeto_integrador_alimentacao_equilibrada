@@ -132,28 +132,28 @@
             </ul>
         </nav>
     </footer>
+
+    <style>
+        ul li ul {
+            display: none;
+        }
+    </style>
+    <script>
+        let elements = document.querySelectorAll('span');
+    
+        elements.forEach((item) => {
+            item.addEventListener('click', function(e){
+                let estado = this.parentNode.querySelector('p').style.display;
+                if ( estado == 'block'){
+                    this.parentNode.querySelector('p').style.display='none';
+                    this.innerHTML = '+'
+                }
+                else{
+                    this.parentNode.querySelector('p').style.display='block';
+                    this.innerHTML = '-'
+                }
+    
+            })
+        });
+    </script>
 </body>
-
-<style>
-    ul li ul {
-        display: none;
-    }
-</style>
-<script>
-    let elements = document.querySelectorAll('span');
-
-    elements.forEach((item) => {
-        item.addEventListener('click', function(e){
-            let estado = this.parentNode.querySelector('p').style.display;
-            if ( estado == 'block'){
-                this.parentNode.querySelector('p').style.display='none';
-                this.innerHTML = '+'
-            }
-            else{
-                this.parentNode.querySelector('p').style.display='block';
-                this.innerHTML = '-'
-            }
-
-        })
-    });
-</script>
